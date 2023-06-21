@@ -1,0 +1,124 @@
+@charset 'utf-8';
+
+
+
+/* 메인 시작 */
+
+.main{
+    font-family: 'Pretendard';
+    font-weight: bold;
+    width: 1260px;
+    position: relative;
+     
+}
+
+.main2{
+    position: relative;
+    width: 1260px;
+    
+}
+.main2>h3{
+    text-align: center;
+    font-size: xx-large;
+    margin-top: 100px;
+}
+.poster{
+    position: relative;
+    width: 1260px;
+    margin-top: 150px;
+    padding: 0 auto;
+    
+}
+
+.poster>p{
+    width: 630px;
+    height: 650px;
+    position: relative;
+    
+}
+.poster>p:nth-child(1){
+    float: left;
+    transition: all 1.5s;
+}
+.poster>p:nth-child(2){
+    float:right;
+    margin-top: 100px;
+    transition: all 1.5s ;
+}
+.poster>p:nth-child(1):hover{
+    transform: translateY(30px);
+}
+.poster>p:nth-child(2):hover{
+    transform: translateY(30px);
+}
+.poster>p>a{
+    position: absolute;
+    display: inline-block;
+    width: 140px;
+    height: 50px;
+    background-color: rgb(230, 183, 97);
+    border-radius: 10px;
+    bottom: 80px;
+    left: 245px;
+    z-index: 1;
+    text-align: center;
+    line-height: 50px;
+}
+.poster>p>a:hover{
+    opacity: 0.9;
+    font-size: large;
+    font-family: 'Pretendard';
+}
+.content_bg{
+    width: 1260px;
+    height: 300px;
+    background-color: rgb(238, 170, 44);
+    z-index: -10;
+    margin-top: 650px;
+    
+}
+.main3{
+    position: relative; 
+    margin-top: 100px;
+    text-align: center;
+}
+.main3>h3{
+    font-size: xx-large;
+}
+.text1{
+    margin-top: 50px;
+    letter-spacing: 3px;
+    font-weight: 400;
+    
+}
+.video{
+    position: relative;
+    clear: both;
+    width: 1260px;
+    text-align: center;
+    margin-top: 100px;
+}
+.icon{
+
+ text-align: center;
+ 
+ 
+}
+.icon>ul>li{
+    display: inline-block;
+    /* margin-top: 40px; */
+    margin: 50px;
+}
+
+.icon>ul>li>a>i:hover{
+    opacity: 0.5;
+    
+}
+.icon>ul>li>a>i{
+   font-size: x-large;
+}
+
+
+
+
+

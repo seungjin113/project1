@@ -1,0 +1,159 @@
+@charset 'utf-8';
+
+.month{
+    color: #ddd ;
+    opacity: 0.9;
+}
+.calendar_master>h3{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.calendar_master>h3>span {
+    
+    border-radius: 5px;
+    letter-spacing: 5px;
+    font-size: xx-large;
+    font-weight: bold;
+    color: #333;
+    opacity: 0.8;
+    
+}
+#calendar{
+    border-radius: 30px;
+    box-shadow:5px 5px 3px #333;
+}
+.calendar-year>p{
+    color: aliceblue;
+    
+}
+
+.muni{
+    width: 300px;
+    height: 200px;
+    display: inline-block;
+    margin-top: 100px;
+}
+.muni>p{
+    margin-top: 30px;
+}
+.map{
+    float:right ;
+   margin-top: 100px;
+    
+}
+.map>p{
+    padding-bottom: 20px;
+    font-size: x-large;
+    
+}
+.allim{
+    position: relative;
+    width: 400px;
+    height: 300px;
+    float: left;
+
+}
+.allim>h2{
+    margin-bottom: 80px;
+}
+.allim>ul>li{
+   
+    margin-bottom: 20px ;
+    cursor: pointer;
+}
+.allim>ul>li:hover{
+    text-decoration: underline;
+}
+#domdom1{
+    /* visibility: hidden; */
+    padding: 40px;
+    clear: both;
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    left: 400px;
+    background-color: orange;
+    color: black;
+    border-radius: 15px;
+    text-align: center;
+    line-height: 40px;  
+    opacity: 0.9;
+}
+#button{
+    border-radius:5px ;
+    cursor: pointer;
+    width: 80px;
+}
+#button:hover{
+    opacity: 0.8;
+}
+
+/* .gallery{
+    position: relative;
+}
+.gallery>h3{
+    background-color: rgb(84, 114, 143);
+    color: rgb(240, 174, 51)  ;
+    opacity: 0.9;
+    border-radius: 10px;
+    margin: 50px auto;
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 10px;
+    height: 100px;
+    line-height: 100px;
+}
+
+.product{
+    position: relative;
+    width: 1260px;
+    height: 550px;
+}
+
+
+
+.product>div{
+    position: relative;
+    width: 1260px;
+    height: 550px;
+    overflow: hidden;
+}
+.product>div>ul{
+
+    position: relative;
+    left: 0;
+    width: 2880px;
+
+}
+.product>div>ul>li{
+    float: left;
+    margin-right: 20px;
+    text-align: center;
+}
+.product>div>ul::after{
+    content: '';
+    display: block;
+    clear: both;
+} */
+
+
+/* icon */
+.icon{
+    clear: both;
+    text-align: center;
+    
+    
+   }
+   .icon>ul>li{
+       display: inline-block;
+       /* margin-top: 40px; */
+       margin: 50px;
+   }
+   
+   .icon>ul>li>a>i:hover{
+       opacity: 0.5;
+       
+   }
+   .icon>ul>li>a>i{
+      font-size: x-large;
+   }

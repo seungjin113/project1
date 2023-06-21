@@ -1,0 +1,140 @@
+@charset 'utf-8';
+
+.gallery{
+  position: relative;
+}
+.gallery>h3{
+  background-color: rgb(84, 114, 143);
+  color: rgb(240, 174, 51)  ;
+  opacity: 0.9;
+  border-radius: 10px;
+  margin-bottom:50px ;
+  text-align: center;
+  font-size: 40px;
+  letter-spacing: 10px;
+  height: 100px;
+  line-height: 100px;
+}
+
+.product{
+  position: relative;
+  width: 1260px;
+  height: 330px;
+  
+  margin-bottom: 100px;
+  
+}
+
+
+
+.product>div{
+  position: relative;
+  width: 1260px;
+  
+  overflow: hidden;
+}
+.product>div>ul{
+
+  position: relative;
+  left: 0;
+  width: 2880px;
+
+}
+.product>div>ul>li{
+  float: left;
+  margin-right: 20px;
+  text-align: center;
+}
+.product>div>ul::after{
+  content: '';
+  display: block;
+  clear: both;
+}
+
+
+
+.menu_title{
+    background-color: rgb(84, 114, 143);
+    color: rgb(240, 174, 51)  ;
+    opacity: 0.9;
+    border-radius: 10px;
+    margin-bottom: 130px;
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 10px;
+    height: 100px;
+    line-height: 100px;
+}
+.menulist {
+   
+    width: 1260px;
+    position: relative;
+  }
+  .menulist::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  .menulist > li {
+    position: relative;
+    float: left;
+    width: 300px;
+    height: 330px;
+    overflow: hidden;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    margin-right: 20px;
+  }
+  .menulist > li:nth-child(4n) {
+    margin-right: 0px;
+  }
+  .menulist > li > div {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 300px;
+    height: 330px;
+    top: 200px;
+    left: 0;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+    z-index: 10;
+    text-align: center;
+  }
+  .menulist > li > div > h3 {
+    color: #fff;
+    margin: 20px auto;
+   
+  }
+  .menulist > li > div > p {
+    color: #fff;
+    line-height: 1.5em;
+    font-size: 0.9em;
+  }
+  .menulist > li:hover > div {
+    opacity: 1;
+    top: 180px;
+  }
+  
+
+
+
+/* icon */
+.icon{
+
+    text-align: center;
+    
+    
+   }
+   .icon>ul>li{
+       display: inline-block;
+       /* margin-top: 40px; */
+       margin: 50px;
+   }
+   
+   .icon>ul>li>a>i:hover{
+       opacity: 0.5;
+       
+   }
+   .icon>ul>li>a>i{
+      font-size: x-large;
+   }
